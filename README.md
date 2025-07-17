@@ -26,17 +26,18 @@
 
 ## 📌 프로젝트 개요
 
-**AIDoc**은 실시간으로 사용자의 위치를 기반으로 병원, 약국, 응급실 정보를 제공하고 예약 및 길찾기, AI 챗봇, 다국어 번역을 통합한 Flutter 기반 모바일 플랫폼입니다. 외국인과 내국인의 **의료 접근성을 동시에 개선**하는 것이 핵심 목표입니다.
+**AIDOC(에이닥)**은 실시간으로 사용자의 위치를 기반으로 병원, 약국, 응급실 정보를 제공하고, 예약 및 길찾기, AI 챗봇, 다국어 번역을 통합한 Flutter 기반 모바일 플랫폼입니다. 외국인과 내국인의 **의료 접근성을 동시에 개선**하는 것이 핵심 목표입니다.
 
 ---
 
 ## 🚨 문제 정의 및 기획 의도
 
-- 긴급 상황에서 병원/약국 위치를 빠르게 찾기 어려움
-- 외국인 사용자들이 한국의 의료 시스템과 언어 장벽에 취약
-- 공공 데이터 접근은 존재하지만 실사용자 경험에 최적화되지 않음
+- 긴급 상황에서 병원/약국 위치를 빠르게 찾기 어려움  
+- 외국인 사용자들이 한국의 의료 시스템과 언어 장벽에 취약  
+- 공공 데이터는 존재하지만 사용자 친화적인 UX 부족
 
-🎯 **기획 목표**: 실시간 위치 + 의료정보 + 다국어 + AI 챗봇을 하나로 통합한 의료 길잡이 앱
+🎯 **기획 목표**  
+→ 실시간 위치 + 의료정보 + 다국어 + AI 챗봇을 하나로 통합한 의료 길잡이 앱
 
 ---
 
@@ -76,17 +77,17 @@
    ↓ ORM (asyncpg)
 [PostgreSQL DB]
 
-외부 연동: 
- - Google OAuth2 (로그인)
- - Naver Map (지도 및 길찾기)
- - Gemini API (챗봇 및 다국어 번역)
- - 공공데이터포털 (병원/약국 데이터)
+외부 연동:
+- Google OAuth2 (로그인)
+- Naver Map API (지도 및 길찾기)
+- Gemini API (AI 챗봇 및 번역)
+- 공공데이터포털 (병원/약국/응급실 정보)
 
 ---
 
 ## 🗂️ ERD 및 API 구조
 🧬 ERD
-<img src="https://github.com/Jaewonkim1009/AIDOC_Project/tree/main/assets/ERD.png" alt="ERD" width="100%"/>
+<img src="https://github.com/Jaewonkim1009/AIDOC_Project/raw/main/assets/ERD.png" alt="ERD" width="100%"/>
 사용자 정보: users, loginaccount, email_users
 
 의료시설 정보: medical_facility, pharmacy_facility, emergency_facility
@@ -97,12 +98,12 @@
 
 ## 📁 디렉터리 구조
 🔧 backend/
-<img src="https://github.com/Jaewonkim1009/AIDOC_Project/tree/main/assets/backend.png" alt="Backend Structure" width="100%"/>
+<img src="https://github.com/Jaewonkim1009/AIDOC_Project/raw/main/assets/backend.png" alt="Backend Structure" width="100%"/>
 
 ---
 
 📱 frontend/
-<img src="https://github.com/Jaewonkim1009/AIDOC_Project/tree/main/assets/frontend.png" alt="Frontend Structure" width="100%"/>
+<img src="https://github.com/Jaewonkim1009/AIDOC_Project/raw/main/assets/frontend.png" alt="Frontend Structure" width="100%"/>
 
 ---
 
