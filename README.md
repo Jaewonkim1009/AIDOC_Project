@@ -123,7 +123,7 @@
 
 ### 📦 Backend
 
-<img src="https://raw.githubusercontent.com/Jaewonkim1009/AIDOC_Project/main/assets/Backend.png" alt="ERD"/>
+<img src="https://raw.githubusercontent.com/Jaewonkim1009/AIDOC_Project/main/assets/Backend.png" alt="Backend"/>
 
 ### 📱 Frontend
 
