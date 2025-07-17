@@ -61,6 +61,11 @@
 
 ---
 
+## 📽️ 시연 영상
+
+[시연 영상 보기 (Google Drive)](https://drive.google.com/file/d/1LU0aDR4oL4_31mQxukxn9dHGOn7XPd8u/view?usp=drive_link)
+
+---
 ## 🛠️ 기술 스택
 
 | 구분 | 기술 |
