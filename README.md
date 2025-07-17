@@ -3,7 +3,7 @@
 </p>
 
 <h2 align="center">
-  <a href="https://docs.google.com/presentation/d/11bmyAXGamzG9ASpGTUpu6ezx78wA_Nr8/edit?usp=sharing">📊 프로젝트 발표 프레젠테이션</a>
+  <a href="https://docs.google.com/presentation/d/1uwqsnHpFGsPQlSU_NgWOPyXh7gwr0bjA/edit?slide=id.p1#slide=id.p1">📊 프로젝트 발표 프레젠테이션</a>
 </h2>
 
 ---
