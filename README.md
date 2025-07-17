@@ -86,7 +86,7 @@
 
 ## 🗂️ ERD 및 API 구조
 🧬 ERD
-<img src="https://raw.githubusercontent.com/사용자명/레포지토리명/main/assets/ERD.png" alt="ERD" width="100%"/>
+<img src="https://github.com/Jaewonkim1009/AIDOC_Project/tree/main/assets/ERD.png" alt="ERD" width="100%"/>
 사용자 정보: users, loginaccount, email_users
 
 의료시설 정보: medical_facility, pharmacy_facility, emergency_facility
@@ -97,12 +97,12 @@
 
 ## 📁 디렉터리 구조
 🔧 backend/
-<img src="https://raw.githubusercontent.com/사용자명/레포지토리명/main/assets/backend.png" alt="Backend Structure" width="100%"/>
+<img src="https://github.com/Jaewonkim1009/AIDOC_Project/tree/main/assets/backend.png" alt="Backend Structure" width="100%"/>
 
 ---
 
 📱 frontend/
-<img src="https://raw.githubusercontent.com/사용자명/레포지토리명/main/assets/frontend.png" alt="Frontend Structure" width="100%"/>
+<img src="https://github.com/Jaewonkim1009/AIDOC_Project/tree/main/assets/frontend.png" alt="Frontend Structure" width="100%"/>
 
 ---
 
