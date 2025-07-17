@@ -29,7 +29,7 @@
 
 ## 🗓️ 프로젝트 일정
 
-![Timeline](asset/Timeline.svg)<p align='center'>
+![Timeline](assets/Timeline.svg)<p align='center'>
 
 ---
 
