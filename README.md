@@ -24,6 +24,12 @@
 - [🔒 보안 및 개인정보 보호](#-보안-및-개인정보-보호)
 - [📈 향후 계획 (Roadmap)](#-향후-계획-Roadmap)
 - [📜 라이선스 (License)](#-라이선스-license)
+  
+---
+
+## 🗓️ 프로젝트 일정
+
+![Timeline](asset/Timeline.svg)<p align='center'>
 
 ---
 
