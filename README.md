@@ -105,8 +105,6 @@
 
 ### 📦 backend/
 
-<img src="https://raw.githubusercontent.com/Jaewonkim1009/AIDOC_Project/main/assets/backend.png" alt="Backend Structure" width="100%"/>
-
 ```plaintext
 backend/
 ├── api/
@@ -125,8 +123,6 @@ backend/
 ```
 
 ### 📱 frontend/
-
-<img src="https://raw.githubusercontent.com/Jaewonkim1009/AIDOC_Project/main/assets/frontend.png" alt="Frontend Structure" width="100%"/>
 
 ```plaintext
 frontend/
