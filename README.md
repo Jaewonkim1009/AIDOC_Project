@@ -84,7 +84,7 @@
 
 ---
 
-🗂️ ERD 및 API 구조
+## 🗂️ ERD 및 API 구조
 🧬 ERD
 <img src="https://raw.githubusercontent.com/사용자명/레포지토리명/main/assets/ERD.png" alt="ERD" width="100%"/>
 사용자 정보: users, loginaccount, email_users
@@ -95,7 +95,7 @@
 
 ---
 
-📁 디렉터리 구조
+## 📁 디렉터리 구조
 🔧 backend/
 <img src="https://raw.githubusercontent.com/사용자명/레포지토리명/main/assets/backend.png" alt="Backend Structure" width="100%"/>
 
@@ -106,7 +106,7 @@
 
 ---
 
-💬 주요 코드 스니펫
+## 💬 주요 코드 스니펫
 ✅ 거리 계산 (Haversine 공식)
 python
 복사
