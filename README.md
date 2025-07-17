@@ -82,3 +82,77 @@
  - Gemini API (챗봇 및 다국어 번역)
  - 공공데이터포털 (병원/약국 데이터)
 
+---
+
+🗂️ ERD 및 API 구조
+🧬 ERD
+<img src="https://raw.githubusercontent.com/사용자명/레포지토리명/main/assets/ERD.png" alt="ERD" width="100%"/>
+사용자 정보: users, loginaccount, email_users
+
+의료시설 정보: medical_facility, pharmacy_facility, emergency_facility
+
+예약 정보: reservation
+
+---
+
+📁 디렉터리 구조
+🔧 backend/
+<img src="https://raw.githubusercontent.com/사용자명/레포지토리명/main/assets/backend.png" alt="Backend Structure" width="100%"/>
+
+---
+
+📱 frontend/
+<img src="https://raw.githubusercontent.com/사용자명/레포지토리명/main/assets/frontend.png" alt="Frontend Structure" width="100%"/>
+
+---
+
+💬 주요 코드 스니펫
+✅ 거리 계산 (Haversine 공식)
+python
+복사
+편집
+def haversine(lat1, lon1, lat2, lon2):
+    from math import radians, sin, cos, sqrt, atan2
+    R = 6371
+    dlat = radians(lat2 - lat1)
+    dlon = radians(lon2 - lon1)
+    a = sin(dlat/2)**2 + cos(radians(lat1)) * cos(radians(lat2)) * sin(dlon/2)**2
+    return R * 2 * atan2(sqrt(a), sqrt(1 - a))
+✅ 챗봇 - 증상 기반 병원 추천
+python
+복사
+편집
+prompt = f"증상: {user_input}, 어떤 병원을 가야 할까?"
+response = gemini.generate(prompt)
+return response.content
+✅ Flutter 병원 목록 요청
+dart
+복사
+편집
+final res = await http.get(Uri.parse('$api/hospital/nearby?lat=$lat&lon=$lon'));
+final data = jsonDecode(res.body);
+
+---
+
+🔒 보안 및 개인정보 보호
+Google OAuth2 인증 적용
+
+토큰 기반 인증 및 사용자 데이터 암호화
+
+의료법 및 개인정보보호법 철저 준수
+
+외부 API 접근 시 사용자 동의 기반 처리
+
+---
+
+📈 기대 효과 및 발전 방향
+외국인의 병원 이용 접근성 향상
+
+의료기관 운영 효율성 증대
+
+건강 데이터 기반 AI 추천 시스템 확장
+
+웨어러블, PHR 연동, 보험 정보 연계 기능 추가 예정
+
+---
+
