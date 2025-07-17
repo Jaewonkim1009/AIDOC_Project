@@ -53,6 +53,14 @@
 
 ---
 
+## 🐾 프로젝트 저장소 목록 (Our Repositories)
+| 저장소 (Repository) | 설명 (Description) | 상태 (Status) |
+| :--- | :--- | :--- |
+| 📱 **[AIDOC_app](https://github.com/Jaewonkim1009/AIDOC_app)** | Flutter 기반 위치기반 병원/약국 정보 모바일 앱 | [![GitHub last commit](https://img.shields.io/github/last-commit/Jaewonkim1009/AIDOC_app?style=flat-square)](https://github.com/Jaewonkim1009/AIDOC_app) [![Top Language](https://img.shields.io/github/languages/top/Jaewonkim1009/AIDOC_app?style=flat-square)](https://github.com/Jaewonkim1009/AIDOC_app) |
+| 🗄️ **[AIDOC_API](https://github.com/Jaewonkim1009/AIDOC_API)** | FastAPI 기반 병원/약국 위치 정보 백엔드 API 서버 | [![GitHub last commit](https://img.shields.io/github/last-commit/Jaewonkim1009/AIDOC_API?style=flat-square)](https://github.com/Jaewonkim1009/AIDOC_API) [![Top Language](https://img.shields.io/github/languages/top/Jaewonkim1009/AIDOC_API?style=flat-square)](https://github.com/Jaewonkim1009/AIDOC_API) |
+
+---
+
 ## 🛠️ 기술 스택
 
 | 구분 | 기술 |
