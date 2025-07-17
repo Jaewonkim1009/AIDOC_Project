@@ -123,22 +123,7 @@
 
 ### 📦 Backend
 
-```plaintext
-backend/
-├── api/
-│   ├── chatbot.py              # AI 챗봇 (의료 상담)
-│   ├── emergency_search.py     # 응급의료기관 검색
-│   ├── loginaccount_api.py     # 로그인 / 회원가입 / 소셜 로그인
-│   ├── medical_detail.py       # 병원 상세 정보 조회
-│   ├── medical_search.py       # 병원(의료기관) 검색
-│   └── pharmacy_search.py      # 약국 검색
-├── assets/
-│   ├── images/                 # 이미지 파일
-│   └── langs/                  # 다국어 번역 JSON
-├── main.py                     # FastAPI 앱 실행 및 라우터 통합
-├── requirements.txt            # 패키지 의존성 목록
-└── start.bat                   # 서버 실행 배치 파일 (Windows용)
-```
+<img src="https://raw.githubusercontent.com/Jaewonkim1009/AIDOC_Project/main/assets/Backend.png" alt="ERD"/>
 
 ### 📱 Frontend
 
