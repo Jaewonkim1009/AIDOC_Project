@@ -173,7 +173,7 @@ response = gemini.generate(prompt)
 return response.content
 ```
 
-### ✅ Flutter 병원 목록 요청
+### ✅ 내 주변 병원 목록 요청
 
 ```dart
 final res = await http.get(Uri.parse('$api/hospital/nearby?lat=$lat&lon=$lon'));
