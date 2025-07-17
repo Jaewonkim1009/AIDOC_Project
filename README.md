@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=AIDoc&desc=실시간%20의료정보%20길잡이%20앱&fontSize=45&animation=fadeIn&fontAlignY=38&descAlignY=70&descAlign=62"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=AIDOC - 에이닥&desc=위치기반%20의료정보%20서비스%20앱&fontSize=45&animation=fadeIn&fontAlignY=38&descAlignY=70&descAlign=62"/>
 </p>
 
 <h2 align="center">
