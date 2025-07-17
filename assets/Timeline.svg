@@ -30,8 +30,8 @@
 
   <!-- milestone 설명 -->
   <text x="190" y="110" class="desc">주제 선정 &amp; 역할 분담</text>
-  <text x="370" y="110" class="desc">데이터 수집과 가공, 백엔드 개발</text>
-  <text x="550" y="110" class="desc">백엔드 개발, 프론트엔드 개발</text>
+  <text x="370" y="110" class="desc">데이터 수집과 가공&amp;백엔드 개발</text>
+  <text x="550" y="110" class="desc">백엔드 개발&amp;프론트엔드 개발</text>
   <text x="730" y="110" class="desc">백엔드 ↔ 프론트 연동</text>
   <text x="910" y="110" class="desc">디버깅 &amp; 오류 수정</text>
 
