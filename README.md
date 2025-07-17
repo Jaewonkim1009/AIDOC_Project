@@ -114,7 +114,7 @@
 | 테이블명 | 설명 |
 |----------|------|
 | `reservation` | 사용자 예약 내역 저장 (예약 일시, 병원명, 주소, 상태, 사용자 ID 등 포함) |
-"""
+
 
 
 ---
@@ -123,34 +123,11 @@
 
 ### 📦 Backend
 
-<img src="https://raw.githubusercontent.com/Jaewonkim1009/AIDOC_Project/main/assets/Backend.png" alt="Backend"/>
+<img src="https://raw.githubusercontent.com/Jaewonkim1009/AIDOC_Project/main/assets/backend.png" alt="Backend"/>
 
 ### 📱 Frontend
 
-```plaintext
-frontend/
-├── pubspec.yaml                # Flutter 종속성 및 설정
-├── key.env                     # 환경변수 파일
-├── assets/
-│   ├── images/                 # 이미지 리소스
-│   └── langs/                  # 다국어 JSON
-└── lib/
-    ├── main.dart
-    ├── chat_bot/               # 챗봇 UI 및 서비스
-    ├── component/              # 공통 재사용 위젯
-    ├── constants/              # API 주소, 키 등 상수값
-    ├── emergency/              # 응급기관 관련 기능
-    ├── hospital/               # 병원 관련 기능
-    ├── map/                    # 지도 관련 기능
-    ├── models/                 # 데이터 모델 클래스
-    ├── pharmacy/               # 약국 관련 기능
-    ├── profile/                # 사용자 설정
-    ├── reservation/            # 예약 기능
-    ├── service/                # API 통신, 인증 등 서비스
-    ├── splash/                 # 앱 시작 로딩화면
-    ├── state/                  # 상태관리
-    └── widgets/                # 공용 위젯
-```
+<img src="https://raw.githubusercontent.com/Jaewonkim1009/AIDOC_Project/main/assets/frontend.png" alt="Frontend"/>
 
 ---
 
