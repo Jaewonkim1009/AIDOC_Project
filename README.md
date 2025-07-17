@@ -91,15 +91,15 @@
 <img src="https://raw.githubusercontent.com/Jaewonkim1009/AIDOC_Project/main/assets/ERD.png" alt="ERD" width="100%"/>
 
 
-### ✅ 테이블 설명
+### 테이블 설명
 
 #### 👤 사용자 관련 테이블
 
 | 테이블명 | 설명 |
 |----------|------|
 | `users` | Firebase 기반 소셜 로그인 사용자 정보 (닉네임, 이메일, 프로필 이미지 등) |
-| `loginaccount` | 일반 로그인 사용자의 개인정보 및 계정 상세 정보 (생년월일, 성별, 전화번호 등 포함) |
 | `email_users` | 이메일/비밀번호 기반 간단 회원 계정 정보 저장 (패스워드 해시 포함) |
+| `loginaccount` | 로그인 사용자의 개인정보 및 계정 상세 정보 (생년월일, 성별, 전화번호 등 포함) |
 
 #### 🏥 의료기관 관련 테이블
 
