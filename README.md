@@ -103,7 +103,7 @@
 
 ## 📁 디렉터리 구조
 
-### 📦 backend/
+### 📦 Backend
 
 ```plaintext
 backend/
@@ -122,7 +122,7 @@ backend/
 └── start.bat                   # 서버 실행 배치 파일 (Windows용)
 ```
 
-### 📱 frontend/
+### 📱 Frontend
 
 ```plaintext
 frontend/
@@ -151,9 +151,9 @@ frontend/
 
 ---
 
-## 💬 주요 코드 스니펫
+## 💬 주요 코드
 
-### ✅ 거리 계산 (Haversine 공식)
+### 1. 거리 계산 (Haversine 공식)
 
 ```python
 def haversine(lat1, lon1, lat2, lon2):
@@ -165,7 +165,7 @@ def haversine(lat1, lon1, lat2, lon2):
     return R * 2 * atan2(sqrt(a), sqrt(1 - a))
 ```
 
-### ✅ 챗봇 - 증상 기반 병원 추천 (Gemini)
+### 2. 챗봇 - 증상 기반 병원 추천 (Gemini)
 
 ```python
 prompt = f"증상: {user_input}, 어떤 병원을 가야 할까?"
@@ -173,7 +173,7 @@ response = gemini.generate(prompt)
 return response.content
 ```
 
-### ✅ 내 주변 병원 목록 요청
+### 3. 내 주변 병원 목록 요청
 
 ```dart
 final res = await http.get(Uri.parse('$api/hospital/nearby?lat=$lat&lon=$lon'));
