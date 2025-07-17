@@ -88,7 +88,7 @@
 
 ### 🧬 ERD
 
-<img src="https://raw.githubusercontent.com/Jaewonkim1009/AIDOC_Project/main/assets/ERD.png" alt="ERD" width="100%"/>
+<img src="https://raw.githubusercontent.com/Jaewonkim1009/AIDOC_Project/main/assets/ERD.png" alt="ERD"/>
 
 
 ### 테이블 설명
