@@ -90,14 +90,32 @@
 
 <img src="https://raw.githubusercontent.com/Jaewonkim1009/AIDOC_Project/main/assets/ERD.png" alt="ERD" width="100%"/>
 
-- **사용자 정보 테이블**
-  - `users`, `loginaccount`, `email_users`
 
-- **의료기관 테이블**
-  - `medical_facility`, `pharmacy_facility`, `emergency_facility`
+### ✅ 테이블 설명
 
-- **예약 테이블**
-  - `reservation`
+#### 👤 사용자 관련 테이블
+
+| 테이블명 | 설명 |
+|----------|------|
+| `users` | Firebase 기반 소셜 로그인 사용자 정보 (닉네임, 이메일, 프로필 이미지 등) |
+| `loginaccount` | 일반 로그인 사용자의 개인정보 및 계정 상세 정보 (생년월일, 성별, 전화번호 등 포함) |
+| `email_users` | 이메일/비밀번호 기반 간단 회원 계정 정보 저장 (패스워드 해시 포함) |
+
+#### 🏥 의료기관 관련 테이블
+
+| 테이블명 | 설명 |
+|----------|------|
+| `medical_facility` | 일반 병·의원 정보 (병원명, 주소, 좌표, 진료시간 dutyTime1~8 등 상세 포함) |
+| `pharmacy_facility` | 약국 정보 (약국명, 주소, 우편번호, 위도/경도, 요일별 운영시간 포함) |
+| `emergency_facility` | 응급의료기관 정보 (병원명, 주소, 응급여부, 위도/경도, 진료과목 등 포함) |
+
+#### 📅 예약 관련 테이블
+
+| 테이블명 | 설명 |
+|----------|------|
+| `reservation` | 사용자 예약 내역 저장 (예약 일시, 병원명, 주소, 상태, 사용자 ID 등 포함) |
+"""
+
 
 ---
 
